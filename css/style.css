@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: #fff url('../images/back.jpg') no-repeat 50% 0 fixed;
+}
+
+.wrapper {
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.page {
+    min-height: 100%;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.search-form {
+    border: 1px solid tomato;
+    display: inline-flex;    
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: wheat;
+}
+#search-form {
+    border: none;
+    width: 180px;
+    height: 30px;
+    padding-left: 20px;
+    outline: none;
+    color: #ccc;
+    border-radius: 40px;
+    padding-right: 10px;
+    
+}
+.container-form button {
+    border: none;
+    background-color: transparent;
+    
+}
+
+.header {
+    max-width: 1100px;
+    height: 300px;
+    background:  url('../images/1.jpg') no-repeat center;
+}
+
+.header_text {
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 400px;
+    font-family: Monotype Corsiva, Tahoma, Arial;
+    font-size: 38px;
+}
+
+.header_text2 {
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 400px;
+    font-family: Monotype Corsiva, Tahoma, Arial;
+    font-size: 25px;
+}
+
+.footer {
+    height: 90px;
+    margin-top: -90px;
+    box-sizing:border-box;
+
+    background: rgba(204, 204, 204, 0.43);
+    border-radius: 0 0 20px 20px;
+    padding: 5px;
+    color: #777;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Arail, Helvetica, Sans-Serif;
+    text-align: center;
+}  
+
+
+.overflov1 {
+    overflow: auto;
+    overflow-x: hidden;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #aaa;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.8);
+}
+.overflov2 {
+    overflow: auto;
+    overflow-x: hidden;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #aaa;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.8);
+}
+ul.list_ingr {
+    padding: 0 10px;
+    list-style: none;
+    font-size: 18px;
+}
+ul.list_ingr li {
+    margin: 5px 0;
+}
